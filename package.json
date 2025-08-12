@@ -1,0 +1,15 @@
+{
+  "name": "yt-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "pip install --upgrade yt-dlp"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "youtube-search-api": "^1.2.6"
+  }
+}
