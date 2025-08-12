@@ -3,8 +3,7 @@
   "main": "server.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node server.js",
-    "postinstall": "pip install --upgrade yt-dlp"
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
